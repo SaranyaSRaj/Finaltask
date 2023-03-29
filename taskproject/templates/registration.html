@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration</title>
+</head>
+<body style="background-color:lightskyblue; width:100%;">
+    <center>
+<h3>Welcome to We Bank.</h3>
+<b>Complete the form correctly to continue</b>
+<br>
+</center>
+<center>
+    <br>
+    <br>
+    <form action="/getdata/" method="post">
+        {% csrf_token %}
+        <div class="d-flex justify-content-center mt-3 login_container" >
+							<br>
+				 			<input class="btn btn-primary" type="submit" value="Fill up the form">
+        </div>
+    </form>
+</center>
+</body>
+</html>
